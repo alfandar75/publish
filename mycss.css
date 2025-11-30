@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root,
+[data-bs-theme=light] {
+    --bs-success: #008080;
+    --bs-success-rgb: 23, 162, 184;
+    --bs-success-text-emphasis: #0b4a52;
+}
+
+.btn-success {
+    --bs-btn-bg: #008080;
+    --bs-btn-border-color: #008080;
+    --bs-btn-hover-bg: #31d2f2;
+    --bs-btn-hover-border-color: #25cff2;
+    --bs-btn-disabled-bg: #008080;
+    --bs-btn-disabled-border-color: #008080;
+}
+
+.btn-outline-success {
+    --bs-btn-color: #008080;
+    --bs-btn-border-color: #008080;
+    --bs-btn-hover-bg: #008080;
+    --bs-btn-hover-border-color: #008080;
+    --bs-btn-active-bg: #008080;
+    --bs-btn-active-border-color: #008080;
+    --bs-btn-disabled-color: #25cff2;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #25cff2;
+}
+
+/* css[mycss]: body */
+body {
+    background-color: #f8f9fa;
+    color: #111111;
+    font-family: 'Inter', sans-serif;
+}
+
+/* css[mycss]: .app-title */
+.app-title {
+    color: #555;
+    font-weight: bold;
+}
+
+/* css[mycss]: .form-group label */
+.form-group label {
+    font-weight: 500;
+    color: #555;
+}
+
+/* css[mycss]: .form:focus */
+.form-check-input:focus,
+.form-control:focus,
+.form-select:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+/* css[mycss]: .text-small */
+.text-small {
+    font-size: 0.9rem;
+}
