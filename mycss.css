@@ -28,26 +28,22 @@
     --bs-btn-disabled-border-color: #25cff2;
 }
 
-/* css[mycss]: body */
 body {
     background-color: #f8f9fa;
     color: #111111;
     font-family: 'Inter', sans-serif;
 }
 
-/* css[mycss]: .app-title */
 .app-title {
     color: #555;
     font-weight: bold;
 }
 
-/* css[mycss]: .form-group label */
 .form-group label {
     font-weight: 500;
     color: #555;
 }
 
-/* css[mycss]: .form:focus */
 .form-check-input:focus,
 .form-control:focus,
 .form-select:focus {
@@ -55,7 +51,11 @@ body {
     box-shadow: none;
 }
 
-/* css[mycss]: .text-small */
 .text-small {
     font-size: 0.9rem;
+}
+
+.alert-modal {
+    font-size: 0.9rem;
+    font-style: italic;
 }
