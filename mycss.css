@@ -44,6 +44,7 @@ body {
     color: #555;
 }
 
+.btn:focus,
 .form-check-input:focus,
 .form-control:focus,
 .form-select:focus {
